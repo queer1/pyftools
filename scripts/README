@@ -1,0 +1,10 @@
+md5sum.py
+
+The 'md5sum.py' is a python script one use to calculate the 'md5' checksum of files in a given root directory.
+We suppose you previously mounted the suspect filesystem on this 'root'. 
+
+In addition the traditional output file ('hash.md5'), this script give us a log file ('md5sum-process.log')
+we can check which files we could not retrieved from the filesystem due to i/o errors. If a i/o error occurs, the program
+simple skips these corrupted files.
+
+
